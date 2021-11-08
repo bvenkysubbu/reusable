@@ -13,7 +13,8 @@ Step 6: Configure Security Group
 Open port 1194 for the remote server
 
 Reference: https://docs.gns3.com/docs/getting-started/installation/remote-server
-
+````
 cd /tmp
 curl https://raw.githubusercontent.com/GNS3/gns3-server/master/scripts/remote-install.sh > gns3-remote-install.sh
 bash gns3-remote-install.sh --with-openvpn --with-iou --with-i386-repository
+````
